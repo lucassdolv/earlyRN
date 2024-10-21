@@ -1,13 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import Prime from './src/Telas/Prime';
+
+import { ScrollView } from 'react-native';
+import HooksTest from './src/Telas/HooksTest';
+import Prime from './src/Telas/Prime'
+import Contador from './src/Components/Contador';
+import CadNews from './src/Components/CadNews';
 
 export default function App() {
   return (
     <ScrollView>
-      <Prime />
-      <StatusBar style="auto" />
+      <Prime/>
+      <CadNews/>
+      <Contador/>
     </ScrollView>
-  );
+  )
 }
 
